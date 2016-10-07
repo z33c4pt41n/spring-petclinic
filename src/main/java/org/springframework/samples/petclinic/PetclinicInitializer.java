@@ -91,7 +91,8 @@ public class PetclinicInitializer extends AbstractDispatcherServletInitializer {
 
         // Dandelion-Datatables filter, used for basic export -->
         DatatablesFilter datatablesFilter = new DatatablesFilter();
-
+		
+		// Test comment
         return new Filter[]{characterEncodingFilter, dandelionFilter, datatablesFilter};
     }
 
